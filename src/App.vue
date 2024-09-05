@@ -35,15 +35,6 @@ export default {
       email: '',
       password: ''
     };
-  },
-  methods: {
-    handleLogin() {
-      if (this.email === '' || this.password === '') {
-        alert('Não deve haver um campo nulo');
-      } else {
-        alert('Está Logado');
-      }
-    }
   }
 }
 </script>
