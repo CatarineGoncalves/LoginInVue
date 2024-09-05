@@ -23,12 +23,12 @@ export default {
       setTimeout(() => {
         this.isClicked = false;
       }, 300);
-      this.$emit('click'); 
+      this.$emit('click');
     }
   }
 }
 </script>
 
 <style scoped>
-  @import './Button.css';
+@import './Button.css';
 </style>

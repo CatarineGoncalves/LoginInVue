@@ -22,5 +22,5 @@ export default {
 </script>
 
 <style scoped>
-  @import './waves.css';
+@import './Waves.css';
 </style>

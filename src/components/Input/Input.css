@@ -41,3 +41,4 @@ input:not(:placeholder-shown) + label {
   background: #fff;
   padding: 0 4px;
 }
+

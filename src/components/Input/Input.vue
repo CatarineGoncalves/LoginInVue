@@ -25,47 +25,5 @@ export default {
 </script>
 
 <style scoped>
-.input-container {
-  position: relative;
-  width: 100%;
-}
-
-input {
-  width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background: #fff;
-  outline: none;
-  transition: border-color 0.2s ease, padding 0.2s ease;
-  height: 7vh;
-  padding: 20px 0 0 15px;
-  color: #5C6D7D;
-}
-
-input:focus {
-  border-color: #6e96be;
-  padding-top: 20px;
-}
-
-label {
-  position: absolute;
-  top: 20px;
-  left: 22px;
-  font-size: 20px;
-  color: #8EC5FC;
-  background: #fff;
-  padding: 0 4px;
-  transition: 0.2s ease all;
-  pointer-events: none;
-}
-
-input:focus + label,
-input:not(:placeholder-shown) + label {
-  top: 10px;
-  left: 12px;
-  font-size: 12px;
-  background: #fff;
-  padding: 0 4px;
-}
+@import './Input.css';
 </style>

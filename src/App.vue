@@ -83,7 +83,6 @@ main {
   margin-top: 10px;
 }
 
-
 .loginContainer {
   width: 90%;
   display: flex;
@@ -95,7 +94,6 @@ main {
 .inputBox {
   margin-bottom: 10px;
 }
-
 
 @media only screen and (max-width: 445px) {
   main {
